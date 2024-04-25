@@ -1,6 +1,8 @@
 # Original dictionary
-dict_orig = {'a': 1, 'b': 2, 'c': 3, 'a': 4}
+dict_orig = {}
 
-# Removing duplicates
-unique_dict = dict(set(dict_orig.items()))
-print("Dictionary after removing duplicates:", unique_dict)
+# Checking if the dictionary is empty
+if not dict_orig:
+    print("Dictionary is empty")
+else:
+    print("Dictionary is not empty")
