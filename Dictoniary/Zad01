@@ -1,1 +1,10 @@
+# Original dictionary
+dict_orig = {'b': 3, 'a': 1, 'c': 5}
 
+# Sorting the items by value (ascending)
+sorted_dict_asc = dict(sorted(dict_orig.items(), key=lambda item: item[1]))
+print("Sorted by value (ascending):", sorted_dict_asc)
+
+# Sorting the items by value (descending)
+sorted_dict_desc = dict(sorted(dict_orig.items(), key=lambda item: item[1], reverse=True))
+print("Sorted by value (descending):", sorted_dict_desc)
